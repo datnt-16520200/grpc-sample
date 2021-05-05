@@ -1,0 +1,23 @@
+{
+  "name": "grpc-sample",
+  "version": "1.0.0",
+  "description": "The grpc demo project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datnt-16520200/grpc-sample.git"
+  },
+  "author": "Dat Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/datnt-16520200/grpc-sample/issues"
+  },
+  "homepage": "https://github.com/datnt-16520200/grpc-sample#readme",
+  "dependencies": {
+    "grpc": "^1.24.9",
+    "uuid": "^8.3.2"
+  }
+}
