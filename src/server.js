@@ -10,6 +10,6 @@ server.addService(notesProto.NoteService.service, {
     callback(null, notes)
   },
 })
-server.bind('127.0.0.1:50051', grpc.ServerCredentials.createInsecure())
+server.bind('0.0.0.0:50051', grpc.ServerCredentials.createInsecure())
 console.log('Server running at http://127.0.0.1:50051')
 server.start()
