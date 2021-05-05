@@ -11,5 +11,5 @@ server.addService(notesProto.NoteService.service, {
   },
 })
 server.bind('0.0.0.0:50051', grpc.ServerCredentials.createInsecure())
-console.log('Server running at http://127.0.0.1:50051')
+console.log('Server listen on port 50051')
 server.start()
