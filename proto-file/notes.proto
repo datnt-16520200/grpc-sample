@@ -1,4 +1,5 @@
 syntax = "proto3";
+package noteservice;
 service NoteService {
   rpc List (Empty) returns (NoteList) {}
 }

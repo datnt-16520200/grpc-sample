@@ -5,7 +5,7 @@ const notes = [
   { id: '2', title: 'Note 2', content: 'Content 2'}
 ]
 const server = new grpc.Server()
-server.addService(notesProto.NoteService.service, {
+server.addService(notesProto.noteservice.NoteService.service, {
   list: (_, callback) => {
     callback(null, notes)
   },
